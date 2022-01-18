@@ -1,0 +1,12 @@
+new Typewriter(document.querySelector("#typewriter"), {})
+  .typeString("Developing")
+  .pauseFor(300)
+  .deleteChars(8)
+  .typeString("signing")
+  .pauseFor(300)
+  .deleteChars(7)
+  .typeString("ploying")
+  .pauseFor(300)
+  .deleteAll()
+  .typeString("Building")
+  .start();
