@@ -85,7 +85,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  font-size: min(5vw, 10rem);
+  font-size: 3.5rem;
 }
 #hero__cta {
   text-decoration: none;
@@ -264,4 +264,49 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block !important;
+}
+
+@media only screen and (max-width: 1300px) {
+  #header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(3rem, auto) 1fr 1fr;
+    height: 100vh;
+  }
+  #branding {
+    text-align: center;
+    padding: 1rem 0 .5rem 0;
+    margin: 0;
+  }
+  #nav__links {
+    display: none;
+  }
+  #illustration, #illustration_container {
+    padding: 0 !important;
+    background: none;
+  }
+  #illustration_container {
+    padding: 1rem 0 !important;
+  }
+  #hero__cta {
+    margin-top: 1rem;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  #hero__heading, #hero__heading > div {
+    align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 570px) {
+  #hero__heading {
+    padding: 0 !important;
+    min-width: auto !important;
+    gap: 1rem;
+  }
+  #hero__heading > div {
+    padding: 0 !important;
+    font-size: 2.75rem !important;
+  }
 }
