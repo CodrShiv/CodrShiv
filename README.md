@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/codrshiv" target="blank"><img src="https://img.shields.io/twitter/follow/codrshiv?logo=twitter&style=for-the-badge" alt="codrshiv" /></a> </p>
 
-- 🔭 I’m currently working on **Blogie**
+- 🔭 I’m currently working on **JEE**
 
 - 👯 I’m looking to collaborate on **Anything you need help with!**
 
